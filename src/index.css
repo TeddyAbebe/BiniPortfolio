@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@400;700&display=swap");
+@import "tailwindcss";
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+p,
+span {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+.cinematic {
+  font-family: "Playfair Display", serif;
+}
+
+html {
+  scroll-padding-top: 80px;
+}
+
+/* Nebula Effect for Skills Section */
+.nebula {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.nebula::before,
+.nebula::after {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  background: rgba(255, 215, 0, 0.6);
+  border-radius: 50%;
+  box-shadow: 0 0 15px rgba(255, 215, 0, 0.8);
+}
+
+.nebula::before {
+  animation: nebula 10s infinite;
+}
+
+.nebula::after {
+  animation: nebula 15s infinite reverse;
+}
+
+@keyframes nebula {
+  0% {
+    transform: translate(0, 0);
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 0.8;
+  }
+  100% {
+    transform: translate(80vw, 60vh);
+    opacity: 0.2;
+  }
+}
