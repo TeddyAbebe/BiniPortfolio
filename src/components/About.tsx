@@ -1,4 +1,5 @@
 import { motion, useScroll, useTransform } from "framer-motion";
+import Bini from "../assets/Bini.jpg"
 
 const About: React.FC = () => {
   const { scrollY } = useScroll();
@@ -47,7 +48,7 @@ const About: React.FC = () => {
         className="md:w-1/2 mt-6 md:mt-0 relative z-10"
       >
         <motion.img
-          src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c"
+          src={Bini}
           alt="Biniyam Abetu"
           className="w-full max-w-md mx-auto h-96 object-cover rounded-lg shadow-lg"
           animate={{ y: [0, 10, 0] }}
