@@ -78,7 +78,7 @@ const Services: React.FC = () => {
           transition={{ duration: 0.8 }}
           className="text-4xl sm:text-5xl font-bold text-center text-white"
         >
-          BINIYAM'S SERVICES
+          SERVICES
         </motion.h2>
         <motion.p
           initial={{ opacity: 0 }}

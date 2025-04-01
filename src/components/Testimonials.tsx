@@ -86,7 +86,7 @@ const Testimonials: React.FC = () => {
           transition={{ duration: 0.8 }}
           className="text-4xl sm:text-5xl font-bold text-center text-white"
         >
-          WHAT CLIENTS SAY ABOUT BINIYAM
+          WHAT CLIENTS SAY ABOUT ME
         </motion.h2>
         <motion.p
           initial={{ opacity: 0 }}

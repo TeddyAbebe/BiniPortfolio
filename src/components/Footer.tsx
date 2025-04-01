@@ -22,7 +22,7 @@ const Footer: React.FC = () => {
 
   return (
     <footer
-      id="footer"
+      id="contact"
       className="relative text-white pt-24 pb-8 bg-cover bg-center"
       style={{
         backgroundImage: `url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e')`,
@@ -31,7 +31,7 @@ const Footer: React.FC = () => {
       }}
     >
       <motion.div
-        className="absolute inset-0 backdrop-blur-md bg-black/50"
+        className="absolute inset-0 backdrop-blur-xs bg-black/10"
         style={{ y }}
       ></motion.div>
       <motion.div
@@ -46,7 +46,7 @@ const Footer: React.FC = () => {
           variants={itemVariants}
           className="text-2xl sm:text-3xl font-bold text-white"
         >
-          BINIYAM ABETU STUDIO
+          BINI STUDIO
         </motion.div>
 
         {/* Tagline */}

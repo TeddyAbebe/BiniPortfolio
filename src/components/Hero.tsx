@@ -10,6 +10,7 @@ const Hero: React.FC = () => {
 
   return (
     <section
+      id="home"
       className="relative h-screen bg-gray-900 text-white flex items-center justify-center p-8 bg-cover bg-center"
       style={{
         backgroundImage: `url('https://images.unsplash.com/photo-1516035069371-29a1b244cc32')`,
@@ -27,7 +28,7 @@ const Hero: React.FC = () => {
         animate={{ opacity: 1 }}
         transition={{ duration: 1 }}
       >
-        <h1 className="text-5xl md:text-7xl font-bold">
+        <h1 className="text-4xl md:text-7xl font-bold">
           {text.split("").map((char, index) => (
             <motion.span
               key={index}

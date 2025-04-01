@@ -41,7 +41,7 @@ const Portfolio: React.FC = () => {
 
   return (
     <section id="portfolio" className="bg-gray-900 text-white p-8 pt-24">
-      <h2 className="text-4xl font-bold text-center">BINIYAM'S PORTFOLIO</h2>
+      <h2 className="text-4xl font-bold text-center">PORTFOLIO</h2>
       <p className="text-center mt-2 cinematic text-yellow-400">
         A collection of my best work in videography, cinematography, and
         photography.
